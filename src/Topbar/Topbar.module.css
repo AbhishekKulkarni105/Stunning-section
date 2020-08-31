@@ -1,0 +1,73 @@
+.MainContainerTopbar
+{
+  width: 100%;
+  
+  
+  
+}
+.Topbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 8%;
+    box-sizing: border-box;
+}
+.Logo
+{
+    width: 30%;
+}
+
+.Menu{
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 40px;
+    cursor: pointer;    
+    letter-spacing: -.5px;
+    opacity: 0.5;
+
+
+
+}
+
+.Menu:hover {
+    text-decoration: #5D50C3 underline;
+    opacity: 1;
+}
+
+nav{
+    margin-right: 24%;
+}
+.Account{
+    width: 18%;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    background-color: #FEE9EA;
+    color: #5D50C3;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 20px 36px;
+    letter-spacing: -.5px;
+}
+.MenuToggleIcon{
+    display:none;
+}
+
+
+@media (max-width: 600px) {
+    .Menu{
+        display: none;
+    }
+    .Account{
+        width: 80%;
+        margin-right:22px ;
+    }
+    .Logo{
+        width: 60%;
+    }
+    .MenuToggleIcon{
+        display: block;
+    }
+}

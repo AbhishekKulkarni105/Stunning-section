@@ -1,0 +1,74 @@
+.SubSection {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    position: relative;
+    top: -350px;
+}
+
+.colDesc {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding:  2px 12px;
+    background-color: #FBFBFB;
+    border-radius: 6px;
+    margin: 4px 0;
+    width: 80%;
+    margin-left: auto;
+}
+.colDescSec{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding:  2px 12px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 4px 0;
+    width: 80%;
+    margin-left: auto;
+    box-shadow: 4px 4px 10px #ccc;
+}
+.colDescLeft, .colDescRight {
+    display: flex;
+    align-items: center;
+}
+
+.colDescLeft {
+    margin-right: 24px;
+    font-size: 14px;
+    width: 60%;
+}
+
+.colDescRight {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.EffectName {
+    margin-left: 24px;
+}
+
+.Images {
+    margin: 4px;
+    margin-right: 8px;
+    width: 24px;
+}
+
+.Date {
+    opacity: 0.5;
+    font-size: 14px;
+    margin: 0 4px;
+}
+
+.Colors {
+    width: 20px;
+    height: 6px;
+    background-color: #FED7DA;
+    margin: 0 8px;
+    border-radius: 3px;
+}
+
